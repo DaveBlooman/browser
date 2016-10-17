@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
 gem "spurious"
-gem "spurious-ruby-awssdk-helper"
+gem "spurious-ruby-awssdk-helper", :git => 'git://github.com/DaveBlooman/ruby-awssdk-helper.git'
 gem "sinatra"
 gem "mustache"
+gem "mustache-sinatra"
 gem "aws-sdk"
 
 group :development do
