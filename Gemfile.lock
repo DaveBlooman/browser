@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/DaveBlooman/ruby-awssdk-helper.git
-  revision: 22c2f5da91e6d68894eb0a6d185d88572dffc9c2
+  revision: 0a7f91a8cf2277b342b5b34e382843c2159cc7eb
   specs:
     spurious-ruby-awssdk-helper (1.0.0)
       aws-sdk (~> 1)
@@ -20,7 +20,7 @@ GEM
     em-synchrony (1.0.5)
       eventmachine (>= 1.0.0.beta.1)
     eventmachine (1.2.0.1)
-    excon (0.53.0)
+    excon (0.54.0)
     ffi (1.9.14)
     json (1.8.3)
     listen (3.1.5)

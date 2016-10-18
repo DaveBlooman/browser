@@ -1,0 +1,13 @@
+version: '2'
+services:
+  s3:
+    image: lphoward/fake-s3:latest
+    ports:
+      - "4569:4569"
+
+  browser:
+    image: davey/browser
+    ports:
+      - "9292:9292"
+    links:
+      - "s3:s3.amazonaws.com"
